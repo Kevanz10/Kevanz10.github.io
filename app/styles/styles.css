@@ -1,0 +1,175 @@
+/*First section styles*/
+.navTransparent{
+	background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.trendyLogo{
+	margin-top: 14px;
+  margin-left: 70%; 
+  width: 55px;
+}
+
+.firstSection{
+	height: 800px;
+  background-color: #1b1a18;
+}
+
+.firstSectionText{
+	font-size: 40pt;
+}
+
+.weAreText{
+	margin-top: 17%;
+	color:white;
+}
+
+.weAreLine{
+	background-color: #c69b6e;
+	width: 170px;
+	height: 4px;
+}
+
+/*About us section css*/
+
+.aboutUsText{
+	font-size: 24pt;
+	margin-top: 8%;
+	margin-bottom: 1%;
+}
+
+.beginningBox{
+	width: 430px;
+  border: .5px solid #eeeeee;
+  position: relative;
+  top: -77px;
+  left: 5%;
+}
+
+.awardBox{
+	width: 430px;
+  border: .5px solid #eeeeee;
+  position: relative;
+  top: 40%;
+  left: 25%;
+}
+
+.flagAboutUs{
+	border: 1px solid #eeeeee;
+  width: 70px;
+  height: 70px;
+  margin: 30px;
+  font-size: 38px !important;
+  padding: 17px 14px;
+  color: #c59a6d;
+}
+
+.trophyAboutUs{
+	border: 1px solid #eeeeee;
+  width: 70px;
+  height: 70px;
+  margin: 30px;
+  font-size: 38px !important;
+	padding: 15px 16px;
+	color: #c59a6d;
+}
+
+.newBuildingBox{
+	width: 430px;
+  border: .5px solid #eeeeee;
+  position: relative;
+  top: 50%;
+  left: 5%;
+}
+
+.timeline{
+	border-right: 1px solid #c59a6d;
+	height: 650px;
+	margin-left: 4%;
+}
+
+.timeline-right{
+	height: 539px;
+}
+
+.squarePosition1{
+  position: relative;
+  top: 59px;
+  left: 157px;
+  color: #c59a6d;
+  font-size: 10px !important;
+}
+
+.squarePosition2{
+  position: relative;
+  top: 41px;
+  right: 497px;
+  color: #c59a6d;
+  font-size: 10px !important;
+}
+
+.squarePosition3{
+	position: relative;
+  top: 41px;
+  right: 497px;
+  color: #c59a6d;
+  font-size: 10px !important;
+}
+
+.year1{
+  margin: 0 0 10px;
+  position: relative;
+  color: #c59a6d;
+  top: 40px;
+  left: 172px;
+}
+
+.year2{
+  margin: 0 0 10px;
+  position: relative;
+  color: #c59a6d;
+  top: 22px;
+  right: 534px;
+}
+
+.paddingInsideBox{
+	padding-top: 13px;
+}
+
+.boxTitlePadding{
+	padding-top:18px;
+}
+
+#aboutUs{
+	margin-bottom: 12%;
+}
+
+.loadMore{
+  position: relative;
+  top: 85px;
+  left: -56px;
+  color: white;
+  background-color: #c59a6d;
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 4px 21px;
+}
+
+.aboutUsLine{
+	background-color: #eeeeee;
+	width: 170px;
+	height: 2px;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.teamTitle{
+	margin-bottom: 3%;
+}
+
+.portrait{
+  height: 230px;
+  width: 165px;
+	background-color: black;
+}
