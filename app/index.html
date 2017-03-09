@@ -13,13 +13,12 @@
 
     <!-- Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="fonts/BebasNeue.otf">
   </head>
 
   <body>
     <!-- First section with nav bar -->
-    <div class="firstSection">  
-      <nav class="navbar navbar-inverse navTransparent">
+    <div id="home">  
+      <nav class="navbar navbar-inverse navbar-fixed-top navTransparent">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -31,32 +30,32 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#aboutUs">About</a></li>
-              <li><a href="#service">Services</a></li>
-              <li><a href="#work">Works</a></li>
-              <li><a href="#price">Pricing</a></li>
-              <li><a href="#client">Clients</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#aboutUs">ABOUT</a></li>
+              <li><a href="#service">SERVICES</a></li>
+              <li><a href="#work">WORKS</a></li>
+              <li><a href="#price">PRICING</a></li>
+              <li><a href="#client">CLIENTS</a></li>
+              <li><a href="#contact">BLOG</a></li>
+              <li><a href="#contact">CONTACT</a></li>
             </ul>
           </div>
         </div>
       </nav>
 
       <!-- We are section -->
-      <div class="text-center weAreText">
+      <div class="text-center weAreText firstSection">
         <p class="firstSectionText">WE ARE</p>
         <hr class="weAreLine">
         <p class="firstSectionText">DESIGNING</p>
-        <span>And We Are Doing It Well</span>
+        <p class="doingWellText">And We Are Doing It Well</p>
       </div>
     </div>
     <!-- End First section -->
 
     <!-- About us section -->
-    <section>
-      <div class= 'text-center container' id="aboutUs">
+    <section id="aboutUs">
+      <div class= 'text-center container aboutUsTitles'>
         <p class="aboutUsText">ABOUT US</p>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
       </div>
@@ -287,61 +286,63 @@
           consequat.</p>
         </div>
       </div>
-      <hr class="aboutUsLine">
-      <h1 class=" serviceText" id="price">AND THE PRICES</h1>
-      <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
+      
+      <div id="price">
+        <hr class="aboutUsLine">
+        <h1 class=" serviceText">AND THE PRICES</h1>
+        <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
 
-      <div class="row container-fluid">
-        <div class="col-md-3 priceBoxes">
-          <p class="starterText">STARTER</p>
-          <h1 class="price"><b>15€</b></h1>
-          <p><b>monthly</b></p>
-          <hr class="serviceHr">
-          <p>Premium Quality</p>
-          <p>24/7 support</p>
-          <p>Great Results</p>
-          <p>Happy Clients</p>
-          <p>High Performance</p>
-          <button class="btn grabNowButton text-center">GRAB NOW</button>
-        </div>
-        <div class="col-md-3 priceBoxes">
-          <p class="starterText">STARTER</p>
-          <h1 class="price"><b>30€</b></h1>
-          <p><b>monthly</b></p>
-          <hr class="serviceHr">
-          <p>Premium Quality</p>
-          <p>24/7 support</p>
-          <p>Great Results</p>
-          <p>Happy Clients</p>
-          <p>High Performance</p>
-          <button class="btn grabNowButton text-center">GRAB NOW</button>
-        </div>
-        <div class="col-md-3 priceBoxes">
-          <p class="starterText">STARTER</p>
-          <h1 class="price"><b>50€</b></h1>
-          <p><b>monthly</b></p>
-          <hr class="serviceHr">
-          <p>Premium Quality</p>
-          <p>24/7 support</p>
-          <p>Great Results</p>
-          <p>Happy Clients</p>
-          <p>High Performance</p>
-          <button class="btn grabNowButton text-center">GRAB NOW</button>
-        </div>
-        <div class="col-md-3 priceBoxes">
-          <p class="starterText">STARTER</p>
-          <h1 class="price"><b>75€</b></h1>
-          <p><b>monthly</b></p>
-          <hr class="serviceHr">
-          <p>Premium Quality</p>
-          <p>24/7 support</p>
-          <p>Great Results</p>
-          <p>Happy Clients</p>
-          <p>High Performance</p>
-          <button class="btn grabNowButton text-center">GRAB NOW</button>
+        <div class="row container-fluid">
+          <div class="col-md-3 priceBoxes">
+            <p class="starterText">STARTER</p>
+            <h1 class="price"><b>15€</b></h1>
+            <p><b>monthly</b></p>
+            <hr class="serviceHr">
+            <p>Premium Quality</p>
+            <p>24/7 support</p>
+            <p>Great Results</p>
+            <p>Happy Clients</p>
+            <p>High Performance</p>
+            <button class="btn grabNowButton text-center">GRAB NOW</button>
+          </div>
+          <div class="col-md-3 priceBoxes">
+            <p class="starterText">STARTER</p>
+            <h1 class="price"><b>30€</b></h1>
+            <p><b>monthly</b></p>
+            <hr class="serviceHr">
+            <p>Premium Quality</p>
+            <p>24/7 support</p>
+            <p>Great Results</p>
+            <p>Happy Clients</p>
+            <p>High Performance</p>
+            <button class="btn grabNowButton text-center">GRAB NOW</button>
+          </div>
+          <div class="col-md-3 priceBoxes">
+            <p class="starterText">STARTER</p>
+            <h1 class="price"><b>50€</b></h1>
+            <p><b>monthly</b></p>
+            <hr class="serviceHr">
+            <p>Premium Quality</p>
+            <p>24/7 support</p>
+            <p>Great Results</p>
+            <p>Happy Clients</p>
+            <p>High Performance</p>
+            <button class="btn grabNowButton text-center">GRAB NOW</button>
+          </div>
+          <div class="col-md-3 priceBoxes">
+            <p class="starterText">STARTER</p>
+            <h1 class="price"><b>75€</b></h1>
+            <p><b>monthly</b></p>
+            <hr class="serviceHr">
+            <p>Premium Quality</p>
+            <p>24/7 support</p>
+            <p>Great Results</p>
+            <p>Happy Clients</p>
+            <p>High Performance</p>
+            <button class="btn grabNowButton text-center">GRAB NOW</button>
+          </div>
         </div>
       </div>
-
 
     </section>
     <!-- End Services section -->
@@ -379,7 +380,7 @@
               </div>
               <div class="item">
                 <div class="testimonialsTitle">
-                  <h1>TESTIMONIALS 2</h1>
+                  <h1 class="serviceText">TESTIMONIALS 2</h1>
                   <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
                 </div>
 
@@ -389,7 +390,7 @@
               </div>
               <div class="item ">
                 <div class="testimonialsTitle">
-                  <h1>TESTIMONIALS 3</h1>
+                  <h1 class="serviceText">TESTIMONIALS 3</h1>
                   <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
                 </div>
 
@@ -408,17 +409,19 @@
         </div>
         <!-- /carousel -->
       </div>
-      <hr class="testimonialHr">
-      <h1 class="serviceText" id="client">CLIENTS</h1>
-      <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
+      <div id="client">
+        <hr class="testimonialHr">
+        <h1 class="serviceText" >CLIENTS</h1>
+        <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
 
-      <div class="row clientRow">
-        <div class="col-md-2 testimonialSquare"></div>
-        <div class="col-md-2 testimonialSquare"></div>
-        <div class="col-md-2 testimonialSquare"></div>
-        <div class="col-md-2 testimonialSquare"></div>
-        <div class="col-md-2 testimonialSquare"></div>
-        <div class="col-md-2 testimonialSquare"></div>
+        <div class="row clientRow">
+          <div class="col-md-2 testimonialSquare"></div>
+          <div class="col-md-2 testimonialSquare"></div>
+          <div class="col-md-2 testimonialSquare"></div>
+          <div class="col-md-2 testimonialSquare"></div>
+          <div class="col-md-2 testimonialSquare"></div>
+          <div class="col-md-2 testimonialSquare"></div>
+        </div>
       </div>
     </section>
     <!-- End Testimonials section -->
@@ -467,8 +470,8 @@
     <!-- End Facts section -->
 
     <!-- Contact Us -->
-    <section class="container" id="contact">
-      <div class="testimonialsTitle text-center">
+    <section class="container">
+      <div class="testimonialsTitle text-center" id="contact">
         <h1 class="serviceText">CONTACT US</h1>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
       </div>
