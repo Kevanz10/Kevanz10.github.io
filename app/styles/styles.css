@@ -29,12 +29,35 @@ body{
 	margin-top: 15%;
 	color:white;
   font-family: 'Bebas Neue';
+  
+  text-align: center;
+  /*position: absolute;*/
+ 
+  
+  height: inherit;
+  overflow: hidden;
+  
+  color: #fafafa;
+  
+  
 }
 
 .weAreLine{
 	border-top: 4px solid #c69b6e;
 	width: 170px;
 	height: 1px;
+}
+
+.firstSection{
+  margin-bottom: 50px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  clear: both;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*About us section css*/
