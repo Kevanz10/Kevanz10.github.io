@@ -514,6 +514,14 @@ li a:hover{
 
 /*Some facts section*/
 
+.iconsFacts i{
+  font-size: 36px;
+}
+
+.iconsFacts h1{
+  margin: 0;
+}
+
 .coolFactTitle{
   margin-top: 3%;
   margin-bottom: 3%;

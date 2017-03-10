@@ -1,10 +1,10 @@
 <!doctype html>
-<html ng-app="">
+<html lang="zxx">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <title></title>
+    <title>Trendy</title>
     <!-- styles aplication -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <img src="images/trendy_logo.png" class="trendyLogo">
+          <img src="images/trendy_logo.png" class="trendyLogo" alt="trendy_logo">
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -42,7 +42,7 @@
       </div>
     </nav>
     <!-- First section with nav bar -->
-    <div id="home" onscroll="scrollBanner()" data-0="background-position: 0 0px; opacity: 1" data-180="opacity: 0.1;">  
+    <div id="home" data-0="background-position: 0 0px; opacity: 1" data-180="opacity: 0.1;">  
       <!-- We are section -->
       <div class="text-center weAreText firstSection">
         <p class="firstSectionText">WE ARE</p>
@@ -54,7 +54,8 @@
     <!-- End First section -->
 
     <!-- About us section -->
-    <section id="aboutUs" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
+    <section id="aboutUs" data-anchor-target= "#work" data-top="opacity: 0.1" data-bottom-top="opacity: 1;"
+      >
       <div class= 'text-center container aboutUsTitles'>
         <p class="aboutUsText">ABOUT US</p>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
@@ -140,12 +141,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </div >
     </section>
     <!-- End about us section-->
 
     <!-- Works section -->
-    <section class="text-center workSection" id="work" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;"> 
+    <section id="work" data-anchor-target= "#service" class="text-center workSection" data-top="background-position: 0 0px; opacity: 0" data-bottom-top="opacity: 1;"> 
       <div class="row">
         <!-- Carousel -->
         <div id="carousel-work" class="carousel slide" data-ride="carousel">
@@ -256,7 +257,7 @@
      <!--End works section -->
 
     <!-- Services section -->
-    <section class="container text-center serviceSection" id="service" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
+    <section class="container text-center serviceSection" id="service" data-anchor-target= "#video" data-top="opacity: 0.1" data-bottom-top="opacity: 1;">
       <h1 class=" serviceText">SERVICES</h1>
       <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
 
@@ -347,7 +348,7 @@
     <!-- End Services section -->
 
     <!-- Video section -->
-    <section class="video-landing" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
+    <section id="video" class="video-landing" data-anchor-target= "#testimonial" data-top="opacity: 0.1" data-bottom-top="opacity: 1;">
       <div class="textVideo">
         <h3 class="text-center">CACHY SENTENCE</h3>
         <hr class="videoHr">
@@ -361,7 +362,7 @@
     <!-- End Video section -->
 
     <!-- Testimonials section -->
-    <section class="text-center container" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
+    <section id="testimonial" class="text-center container" data-anchor-target= "#fact"  data-top="opacity: 0" data-bottom-top="opacity: 1;">
       <div class="row">
         <!-- Carousel -->
         <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
@@ -426,7 +427,7 @@
     <!-- End Testimonials section -->
 
     <!-- Facts section -->
-    <section class="text-center factSection" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
+    <section id="fact" class="text-center factSection" data-anchor-target= "#contact" data-top="opacity: 0" data-bottom-top="opacity: 1;">
       <div class="factsTitle">
         <h1 class="coolFactTitle">SOME COOL FACTS</h1>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
@@ -434,7 +435,7 @@
 
       <div class="row container-fluid iconsFacts">
         <div class="col-md-2 text-right">   
-          <h1><i class="fa fa-users" aria-hidden="true"></i></h1>
+          <i class="fa fa-users" aria-hidden="true"></i>
         </div>
         <div class="col-md-2 text-left WidthHappyClients">   
           <h1>120</h1>
@@ -442,7 +443,7 @@
         </div>
 
         <div class="col-md-1 text-right computerWidth">   
-          <h1><i class="fa fa-files-o" aria-hidden="true"></i></h1>
+          <i class="fa fa-files-o" aria-hidden="true"></i>
         </div>
         <div class="col-md-2 text-left ">   
           <h1>551</h1>
@@ -450,7 +451,7 @@
         </div>
 
         <div class="col-md-1 text-right computerWidth">   
-          <h1><i class="fa fa-laptop " aria-hidden="true"></i></h1>
+          <i class="fa fa-laptop " aria-hidden="true"></i>
         </div>
         <div class="col-md-2 text-left WidthHappyClients">   
           <h1>95k</h1>
@@ -458,7 +459,7 @@
         </div>
 
         <div class="col-md-1 text-right">   
-          <h1><i class="fa fa-coffee" aria-hidden="true"></i></h1>
+          <i class="fa fa-coffee" aria-hidden="true"></i>
         </div>
         <div class="col-md-2 text-left">   
           <h1>1.2k</h1>
@@ -469,7 +470,7 @@
     <!-- End Facts section -->
 
     <!-- Contact Us -->
-    <section class="container" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
+    <section class="container" data-anchor-target= "#find" data-top="opacity: 0.1" data-bottom-top="opacity: 1;">
       <div class="testimonialsTitle text-center" id="contact">
         <h1 class="serviceText">CONTACT US</h1>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
@@ -477,13 +478,13 @@
 
       <div class="row">
         <div class="col-md-4 ">
-          <input type="" name="" placeholder="YOUR NAME" class="inputSize">
+          <input type="text" name="name" placeholder="YOUR NAME" class="inputSize">
         </div>
         <div class="col-md-4">
-          <input type="" name="" placeholder="YOUR EMAIL" class="inputSize">
+          <input type="email" name="email" placeholder="YOUR EMAIL" class="inputSize">
         </div>
         <div class="col-md-4">
-          <input type="" name="" placeholder="YOUR PHONE" class="inputSize">
+          <input type="number" name="phone" placeholder="YOUR PHONE" class="inputSize">
         </div>
       </div>
 
@@ -500,7 +501,7 @@
     <!-- End Contact Us -->
 
     <!-- Find Us section -->
-    <section class="text-center findUsSection" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
+    <section id="find" class="text-center findUsSection" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
       <div class="factsTitle">
         <h1 class="findUsTitle">Find Us</h1>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
@@ -508,16 +509,15 @@
 
       <div class="row container-fluid iconsFacts">
         <div class="col-md-3 text-right">   
-          <h1><i class="fa fa-phone" aria-hidden="true"></i></h1>
+          <i class="fa fa-phone" aria-hidden="true"></i>
         </div>
         <div class="col-md-2 text-left ">   
           <h4 class="textColor">PHONES</h4>
           <p>+359 2 88 55 999</p>
           <p>+359 89 88 55 999</p>
         </div>
-
         <div class="col-md-1 text-right widthFixMarker">   
-          <h1><i class="fa fa-map-marker" aria-hidden="true"></i></h1>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
         </div>
         <div class="col-md-2 text-left widthFixMakerText">   
           <h4 class="textColor">OFFICE ADDRESS</h4>
@@ -526,9 +526,8 @@
           <p>Sofia, 1000,</p>
           <p>Bulgaria</p>
         </div>
-
         <div class="col-md-1 text-right widthFixEnvelo">   
-          <h1><i class="fa fa-envelope-o " aria-hidden="true"></i></h1>
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
         </div>
         <div class="col-md-2 text-left ">   
           <h4 class="textColor">EMAILS</h4>
