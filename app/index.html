@@ -13,36 +13,36 @@
 
     <!-- Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
   </head>
 
   <body>
-    <!-- First section with nav bar -->
-    <div id="home">  
-      <nav class="navbar navbar-inverse navbar-fixed-top navTransparent">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
-            </button>
-            <img src="images/trendy_logo.png" class="trendyLogo">
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#home">HOME</a></li>
-              <li><a href="#aboutUs">ABOUT</a></li>
-              <li><a href="#service">SERVICES</a></li>
-              <li><a href="#work">WORKS</a></li>
-              <li><a href="#price">PRICING</a></li>
-              <li><a href="#client">CLIENTS</a></li>
-              <li><a href="#contact">BLOG</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top navTransparent">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <img src="images/trendy_logo.png" class="trendyLogo">
         </div>
-      </nav>
-
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#aboutUs">ABOUT</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#work">WORKS</a></li>
+            <li><a href="#price">PRICING</a></li>
+            <li><a href="#client">CLIENTS</a></li>
+            <li><a href="#contact">BLOG</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- First section with nav bar -->
+    <div id="home" onscroll="scrollBanner()" data-0="background-position: 0 0px; opacity: 1" data-180="opacity: 0.1;">  
       <!-- We are section -->
       <div class="text-center weAreText firstSection">
         <p class="firstSectionText">WE ARE</p>
@@ -54,7 +54,7 @@
     <!-- End First section -->
 
     <!-- About us section -->
-    <section id="aboutUs">
+    <section id="aboutUs" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
       <div class= 'text-center container aboutUsTitles'>
         <p class="aboutUsText">ABOUT US</p>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
@@ -145,7 +145,7 @@
     <!-- End about us section-->
 
     <!-- Works section -->
-    <section class="text-center workSection" id="work"> 
+    <section class="text-center workSection" id="work" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;"> 
       <div class="row">
         <!-- Carousel -->
         <div id="carousel-work" class="carousel slide" data-ride="carousel">
@@ -256,7 +256,7 @@
      <!--End works section -->
 
     <!-- Services section -->
-    <section class="container text-center serviceSection" id="service">
+    <section class="container text-center serviceSection" id="service" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
       <h1 class=" serviceText">SERVICES</h1>
       <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
 
@@ -343,12 +343,11 @@
           </div>
         </div>
       </div>
-
     </section>
     <!-- End Services section -->
 
     <!-- Video section -->
-    <section class="video-landing">
+    <section class="video-landing" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
       <div class="textVideo">
         <h3 class="text-center">CACHY SENTENCE</h3>
         <hr class="videoHr">
@@ -362,7 +361,7 @@
     <!-- End Video section -->
 
     <!-- Testimonials section -->
-    <section class="text-center container">
+    <section class="text-center container" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
       <div class="row">
         <!-- Carousel -->
         <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
@@ -427,7 +426,7 @@
     <!-- End Testimonials section -->
 
     <!-- Facts section -->
-    <section class="text-center factSection">
+    <section class="text-center factSection" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
       <div class="factsTitle">
         <h1 class="coolFactTitle">SOME COOL FACTS</h1>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
@@ -470,7 +469,7 @@
     <!-- End Facts section -->
 
     <!-- Contact Us -->
-    <section class="container">
+    <section class="container" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
       <div class="testimonialsTitle text-center" id="contact">
         <h1 class="serviceText">CONTACT US</h1>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
@@ -501,7 +500,7 @@
     <!-- End Contact Us -->
 
     <!-- Find Us section -->
-    <section class="text-center factSection">
+    <section class="text-center factSection" data-top="background-position: 0 0px; opacity: 1" data-bottom-top="opacity: 0;">
       <div class="factsTitle">
         <h1 class="findUsTitle">Find Us</h1>
         <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem.</p>
@@ -540,7 +539,7 @@
     </section>
     <!-- End Find Us section -->
 
-    <footer class="footerSize">
+    <footer class="footerSize" >
       <p class='col-md-6'>Copyright © 2014 Trendy - Designed by Stefan Parnarcv </p>
       <div class="col-md-6 iconsPosition">
         <i class="fa fa-facebook iconsSpace" aria-hidden="true"></i>
@@ -559,5 +558,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/skrollr.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script>
+
   </body>
 </html>

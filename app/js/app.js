@@ -1,22 +1,8 @@
-function scrollBanner() {
-  $(document).scroll(function(){
-  
-    var scrollPos = $(this).scrollTop();
-    $('.firstSection').css({
-      'top' : (scrollPos/2)+'px',
-      'bottom' : (scrollPos)+'px',
-      'opacity' : 1-(scrollPos/510)
-    });
-  });    
-}
-scrollBanner();
-
 $(document).ready(function () {
   $(document).on("scroll", onScroll);
     
   $('a[href^="#"]').on('click', function (e) {
     e.preventDefault();
-    $(document).off("scroll");
     
     $('a').each(function () {
        $(this).removeClass('elementActive');
