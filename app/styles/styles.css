@@ -49,6 +49,9 @@ li a:hover{
 
 .firstSection{
   background-color: #1b1a18 ;
+  background-image: url(../images/foto1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-attachment: fixed;
   padding-bottom: 50px;
 }
@@ -249,7 +252,9 @@ li a:hover{
 
 /*Work section styles*/
 .workSection{
-	background-color: #1b1a18;
+	background-image: url(../images/foto2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 	color: white;
 }
 
@@ -517,7 +522,9 @@ li a:hover{
 }
 
 .factSection{
-  background-color: #2c2b2a;
+  background-image: url(../images/foto3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .textColor{
@@ -597,6 +604,10 @@ li a:hover{
   font-family: "bebas_neueregular"; 
   font-size: 56px;
   color: white;
+}
+
+.findUsSection{
+  background-color: #2c2b2a;
 }
 /*footer section*/
 
