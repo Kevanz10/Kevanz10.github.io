@@ -1,0 +1,216 @@
+@media screen and (max-width: 991px) {
+  #myNavbar .navbar-right {
+    margin-right: 0%;
+    margin-top: -5px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.firstSectionText {
+    font-size: 80px;
+    font-family: 'bebas_neueregular';
+	}
+
+
+	#myNavbar .navbar-right {
+    background-color: #c59a6d;
+	}
+
+  .trendyLogo {
+    margin-left: 5%;
+    margin-top: 2%;
+	}
+
+	.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background: black;
+	}
+
+	/*About us section*/
+
+	.flagAboutUs {
+    height: 0%;
+    font-size: 3em !important;
+    text-align: center;
+    margin: 5% 5%;
+    padding: 2%;
+   
+	}
+
+	.boxTitlePadding {
+    padding-top: 0px;
+    font-size: 16px;
+	}
+
+	.beginningBox {
+    width: 100%;
+    top: -11%;
+    left: 6%;
+    font-size: 11px;
+	}
+
+	.newBuildingBox {
+	  width: 100%;
+    top: 50%;
+    left: 5%;
+    font-size: 11px;
+	}
+
+	.awardBox {
+	  width: 97%;
+    border: .5px solid #eeeeee;
+    position: relative;
+    top: 46%;
+    left: 6%;
+    font-size: 12px;
+	}
+
+	.awardBox p{
+		font-size: 11px
+	}
+
+	.trophyAboutUs {
+    height: 0%;
+    font-size: 3em !important;
+    /* margin: 14px; */
+    margin: 5% 5%;
+    padding: 2%;
+    text-align: center;
+	}
+
+	.paddingInsideBox {
+    padding-top: 0px;
+	}	
+
+	.year1 {
+    left: 9%;
+	}
+
+	.year2007{
+    margin: 0 0 10px;
+    position: relative;
+    color: #c59a6d;
+    top: -363px;
+    left: -7%;
+	}
+
+	.year2008 {
+    
+    left: 7%;
+	}
+
+	.loadMore {
+    left: 38%;
+	}	
+
+	/*Work section*/
+
+	.farmerText {
+    /*margin: 15px 13px;*/
+    color: #c59a6d;
+    font-size: 13px;
+    text-align: start;
+	}
+
+	.girlText{
+		font-size: 13px;
+	}
+
+	.portrait{
+		margin: 0 auto;
+	}
+
+	/*Services section*/
+	.priceBoxes {
+
+	}
+
+	.starterText {
+    color: #c59a6d;
+    margin-top: 10%;
+    font-size: 17px;
+	}
+
+	.testimonialSquare{
+		margin-bottom: 4%;
+	}
+
+	/*Contact us section*/
+	.inputSize {
+    margin-bottom: 4%;
+	}
+
+	/*footer*/
+	.footerSize {
+    height: 113px;
+    padding-left: 0;
+    padding-top: 54px;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+	.loadMore {
+    left: 42%;
+	}
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 767px) {
+	.loadMore {
+    left: 44%;
+	}
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 455px) {
+	.spaceTop .text-left{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+	.container{
+		padding: 0;
+	}
+
+	.testimonialSquare{
+		margin-bottom: 4%;
+	}
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px){
+	.flagAboutUs {
+    height: 0%;
+    font-size: 32px !important;
+    text-align: center;
+    margin: 5% 5%;
+    padding: 2%;
+  }
+
+  .trophyAboutUs {
+    border: 1px solid #eeeeee;
+    text-align: center;
+    height: 70px;
+    margin: 30px;
+    font-size: 32px !important;
+    padding: 15px 14px;
+    color: #c59a6d;
+    text-align: center;
+	}
+
+	.year1{
+		left: 5%;
+	}
+
+	.year2007{
+		left: -5%;
+	}
+
+	.year2008{
+		left: 5%;
+	}
+}	
+
