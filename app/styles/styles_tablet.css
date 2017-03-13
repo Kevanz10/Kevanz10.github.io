@@ -91,7 +91,6 @@
 	.year2007{
     margin: 0 0 10px;
     position: relative;
-    color: #c59a6d;
     top: -363px;
     left: -7%;
 	}
@@ -108,8 +107,6 @@
 	/*Work section*/
 
 	.farmerText {
-    /*margin: 15px 13px;*/
-    color: #c59a6d;
     font-size: 13px;
     text-align: start;
 	}
@@ -128,7 +125,6 @@
 	}
 
 	.starterText {
-    color: #c59a6d;
     margin-top: 10%;
     font-size: 17px;
 	}
@@ -197,7 +193,6 @@
     margin: 30px;
     font-size: 32px !important;
     padding: 15px 14px;
-    color: #c59a6d;
     text-align: center;
 	}
 
