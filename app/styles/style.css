@@ -221,7 +221,8 @@ li a:hover {
   background-image: url(../images/foto2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color: white; }
+  color: white;
+  background-attachment: fixed; }
 
 .worksTitleSection {
   padding-top: 6%;
@@ -432,7 +433,8 @@ li a:hover {
 .factSection {
   background-image: url(../images/foto3.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%; }
+  background-size: 100% 100%;
+  background-attachment: fixed; }
 
 .textColor {
   color: #c59a6d; }
